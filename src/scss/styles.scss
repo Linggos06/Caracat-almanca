@@ -987,7 +987,7 @@ nav {
     text-align: right;
     font-size: calc(17px + (70 - 17) * ((100vw - 320px) / (1920 - 320)));
     line-height: calc(28px + (70 - 28) * ((100vw - 320px) / (1920 - 320)));
-    width: calc(110px + (450 - 110) * ((100vw - 320px) / (1920 - 320)));;
+    width: calc(150px + (550 - 150) * ((100vw - 320px) / (1920 - 320)));
     transition: opacity .6s ease;
     @media screen and (max-width: $breakpoint-tablet) {
       top: 8%;
