@@ -1,41 +1,9 @@
 @font-face {
-  font-family: "FreightBigProBlack";
-  font-display: swap;
-  src: url("/fonts/FreightBigProBlack-Italic.woff") format("woff") url("/fonts/FreightBigProBlack-Italic.woff2") format("woff2");
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FreightBigProBlack";
-  font-display: swap;
-  src: url("/fonts/FreightBigProBlack-Regular.woff") format("woff") url("/fonts/FreightBigProBlack-Regular.woff2") format("woff2");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "FreightBigProBook";
   font-display: swap;
   src: url("/fonts/FreightBigProBook-Regular.woff") format("woff") url("/fonts/FreightBigProBook-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "FreightBigProBold";
-  font-display: swap;
-  src: url("/fonts/FreightBigProBold-Regular.woff") format("woff") url("/fonts/FreightBigProBold-Regular.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FreightBigProBook";
-  font-display: swap;
-  src: url("/fonts/FreightBigProBook-Italic.woff") format("woff") url("/fonts/FreightBigProBook-Italic.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic;
 }
 
 @font-face {
@@ -47,59 +15,11 @@
 }
 
 @font-face {
-  font-family: "FreightBigProBold";
-  font-display: swap;
-  src: url("/fonts/FreightBigProBold-Italic.woff") format("woff") url("/fonts/FreightBigProBold-Italic.woff2") format("woff2");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FreightBigProMedium";
-  font-display: swap;
-  src: url("/fonts/FreightBigProMedium-Italic.woff") format("woff") url("/fonts/FreightBigProMedium-Italic.woff2") format("woff2");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FreightBigProSemibold";
-  font-display: swap;
-  src: url("/fonts/FreightBigProSemibold-Italic.woff") format("woff") url("/fonts/FreightBigProSemibold-Italic.woff2") format("woff2");
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FreightBigProMedium";
-  font-display: swap;
-  src: url("/fonts/FreightBigProMedium-Regular.woff") format("woff") url("/fonts/FreightBigProMedium-Regular.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FreightBigProSemibold";
-  font-display: swap;
-  src: url("/fonts/FreightBigProSemibold-Regular.woff") format("woff") url("/fonts/FreightBigProSemibold-Regular.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "FreightBigProLight";
   font-display: swap;
   src: url("/fonts/FreightBigProLight-Italic.woff") format("woff") url("/fonts/FreightBigProLight-Italic.woff2") format("woff2");
   font-weight: 300;
   font-style: italic;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-display: swap;
-  src: url("/fonts/Montserrat-Regular.woff") format("woff") url("/fonts/Montserrat-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
 }
 
 .beer-slider {
@@ -274,6 +194,85 @@
 .beer-ready .beer-reveal,
 .beer-ready .beer-handle {
   opacity: 1;
+}
+
+.hero_spec .image1_specs {
+  background-image: url(../img/image_specs1.jpg);
+}
+
+.hero_spec .image2_specs {
+  background-image: url(../img/image_specs2.jpg);
+}
+
+.interior_spec .interior_item {
+  opacity: 1;
+}
+
+.specification {
+  width: 100%;
+}
+
+.specification_container {
+  padding-top: calc(15px + 49 * (100vw - 320px) / 1600);
+  padding-bottom: calc(15px + 30 * (100vw - 320px) / 1600);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.specification_container h2 {
+  font-size: calc(16px + 74 * (100vw - 320px) / 1600);
+  line-height: calc(22px + 91 * (100vw - 320px) / 1600);
+  color: #ca9561;
+  margin-bottom: calc(22px + 28 * (100vw - 320px) / 1600);
+}
+
+.spec_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.spec_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.spec_left {
+  padding-right: 10px;
+}
+
+.spec_item h3 {
+  font-family: "FreightBigProLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: calc(14px + 16 * (100vw - 320px) / 1600);
+  line-height: calc(20px + 17 * (100vw - 320px) / 1600);
+  letter-spacing: -2px;
+  padding-bottom: 5px;
+  color: #ca9561;
+}
+
+.spec_item li {
+  font-family: "FreightBigProLight";
+  font-weight: 200;
+  font-style: normal;
+  font-size: calc(13px + 12 * (100vw - 320px) / 1600);
+  line-height: calc(18px + 17 * (100vw - 320px) / 1600);
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #595b60;
+}
+
+.spec_item:not(:last-child) {
+  margin-bottom: calc(15px + 22 * (100vw - 320px) / 1600);
 }
 
 * {
@@ -750,23 +749,16 @@ nav {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 600px;
 }
 
 .nature_image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 25%;
+  height: 100%;
   overflow: hidden;
   -webkit-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
@@ -776,17 +768,25 @@ nav {
 
 .nature_image:hover {
   -webkit-box-flex: 4;
-      -ms-flex: 4;
-          flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+  width: 60%;
 }
 
-.nature_image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+.nature1 {
+  background: url(/img/winter3.jpg) center/cover no-repeat;
+}
+
+.nature2 {
+  background: url(/img/mountain3.jpg) center/cover no-repeat;
+}
+
+.nature3 {
+  background: url(/img/road3.jpg) center/cover no-repeat;
+}
+
+.nature4 {
+  background: url(/img/sea2.jpg) center/cover no-repeat;
 }
 
 .new_design .wrapper {
@@ -1451,6 +1451,12 @@ footer .link:hover {
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .specification_container {
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 1099px) {
   .slide_header {
     width: 320px;
@@ -1472,6 +1478,14 @@ footer .link:hover {
 }
 
 @media screen and (max-width: 992px) {
+  .specification_container {
+    width: 90%;
+  }
+
+  .spec_item h3 {
+    letter-spacing: 0px;
+  }
+
   .header_container {
     padding: 16px 25px;
   }
@@ -1488,6 +1502,10 @@ footer .link:hover {
 
   .seasons_container {
     height: 80vh;
+  }
+
+  .nature_image {
+    width: 33, 33%;
   }
 
   .nature3 {
@@ -1548,6 +1566,18 @@ footer .link:hover {
 }
 
 @media screen and (max-width: 780px) {
+  .specification_container > h2 {
+    text-align: center;
+  }
+
+  .specification_container {
+    width: 95%;
+  }
+
+  .spec_item li {
+    letter-spacing: 0px;
+  }
+
   .header_container {
     padding: 10px 13px;
   }
@@ -1837,6 +1867,19 @@ footer .link:hover {
 @media screen and (max-width: 630px) {
   .slide_container {
     max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .spec_body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
 }
 
