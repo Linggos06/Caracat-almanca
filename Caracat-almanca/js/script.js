@@ -108,6 +108,7 @@ var swiper2 = new Swiper(".swiper2", {
   }
 });
 var swiper3 = new Swiper(".swiper3", {
+  autoHeight: true,
   loop: true,
   speed: 950,
   freeMode: {
